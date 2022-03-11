@@ -6,13 +6,13 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int main (void)
+      for(int x = 'A'; x <= 'Z'; x++)
 {
-     char low;
+    x = tolower(x);
+    putchar(x);
 
-      for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
-		printf("\n");
+	printf("\n");
 
        return (0);
 }
