@@ -1,6 +1,10 @@
+/*
+ * File: 2-print_alphabet.c
+ * Auth: Samuel Kioko
+ */
+
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include <ctype.h>
 /**
  * main - Entry point
  *
@@ -8,14 +12,17 @@
  */
 int main(void)
 {
-     char c;
+	int x = 'A';
+		do {
+		int low_x = tolower(x);
 
-     for (c = 'a'; c <= 'z'; c++);
-	
-	  putchar (c);
+		putchar(low_x);
 
-      putchar ('\n');
+		x++;
+	}
+		while (x <= 'Z');
+		putchar('\n');
 
-      return (0);
-	
+	return (0);
+
 }
