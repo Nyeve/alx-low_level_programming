@@ -12,6 +12,7 @@
  */
 int main(void)
 {
+<<<<<<< HEAD
 	int x = 'A';
 		do {
 		int low_x = tolower(x);
@@ -25,4 +26,13 @@ int main(void)
 
 	return (0);
 
+=======
+    char i;
+    for (i='a';i<=z;++i);
+     {
+        putchar(i)
+     }
+     putchar('\n')
+     return (0);
+>>>>>>> a94166469a03ff9445c71bd5fd06b688ede55ba1
 }
