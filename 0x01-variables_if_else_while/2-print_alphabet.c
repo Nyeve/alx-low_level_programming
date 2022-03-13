@@ -2,9 +2,10 @@
  *
  *  * File: 2-print_alphabet.c
  *
- *   * Auth: Samuel Kioko
- *
- *    */
+ *   * 
+ *   *
+ *   
+ */
 
 
 
@@ -20,7 +21,7 @@
  *
  *    * Return: Always 0 (Success)
  *
- *     */
+ */
 
 int main(void)
 
