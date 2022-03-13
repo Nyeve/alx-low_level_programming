@@ -1,18 +1,55 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-/**
- * main - Entry point
+/*
  *
- * Return: Always 0 (Success)
- */
+ *  * File: 2-print_alphabet.c
+ *
+ *   * Auth: Samuel Kioko
+ *
+ *    */
+
+
+
+#include <stdio.h>
+
+#include <ctype.h>
+
+/**
+ *
+ *  * main - Entry point
+ *
+ *   *
+ *
+ *    * Return: Always 0 (Success)
+ *
+ *     */
+
 int main(void)
+
 {
-    char i;
-    for (i='a';i<=z;++i);
-     {
-        putchar(i)
-     }
-     putchar('\n')
-     return (0);
+
+		int x = 'A';
+
+				do {
+
+							int low_x = tolower(x);
+
+
+
+									putchar(low_x);
+
+
+
+											x++;
+
+												}
+
+						while (x <= 'Z');
+
+						putchar('\n');
+
+
+
+					return (0);
+
+
+
 }
