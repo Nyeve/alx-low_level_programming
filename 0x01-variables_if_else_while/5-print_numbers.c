@@ -9,39 +9,23 @@
 
 
 #include <stdio.h>
-
 /**
+ * main- prints all single digit numbers of base 10 starting from 0
  *
- *  * main - Entry point
- *
- *   *
- *
- *    * Return: Always 0 (Success)
- *
+ * Return: 0
  */
 
 int main(void)
-
 {
-
-		int x = 0;
-
-
-
-			do {
-
-						printf("%d", x);
-
-								x++;
-
-									} while (x < 10);
-
-
-
-				printf("\n");
-
-				return (0);
-
+	int x = 0;
+       
+	do {
+		
+		printf("%d", x);
+		x++;
+	} while (x < 10);
+	printf("\n");
+	return (0);
 }
 
 
