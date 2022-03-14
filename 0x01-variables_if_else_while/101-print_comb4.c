@@ -4,9 +4,9 @@
  */
 #include <stdio.h>
 /**
- * main- prints all possible different combinations of three digits.
+ * main- starts here
  *
- * Returns : always 0(Success)
+ * Return:Always 0
  */
 int main(void)
 {
