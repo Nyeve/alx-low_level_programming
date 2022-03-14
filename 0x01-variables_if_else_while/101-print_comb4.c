@@ -5,6 +5,7 @@
 #include <stdio.h>
 /**
  * main- prints all possible different combinations of three digits.
+ *
  * Returns : always 0(Success)
  */
 int main(void)
