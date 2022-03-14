@@ -1,8 +1,6 @@
 /*
  * File: 3-print_alphabets.c
- * 
  */
-
 #include <stdio.h>
 /**
  * main - Entry point
