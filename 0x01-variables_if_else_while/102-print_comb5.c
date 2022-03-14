@@ -1,15 +1,12 @@
 /*
  * File: 102-print_comb5.c
  * Auth: Everlyne Angwenyi
-
  */
-
 #include <stdio.h>
  /**
   * main - Starts here
   * Return: Always 0
   */
-
  int main(void)
 {
 	int a, b;
