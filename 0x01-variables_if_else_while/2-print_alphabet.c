@@ -1,7 +1,7 @@
 /*
  * File: 2-print_alphabet.c
  * Auth: Everlyne Angwenyi
-/*
+ */
 #include <stdio.h>
 #include <ctype.h>
 /**
