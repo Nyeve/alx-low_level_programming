@@ -1,18 +1,47 @@
-g#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-/**
- * main - Entry point
+/*
  *
- * Return: Always 0 (Success)
- */
+ *  * File: 5-print_numbers.c
+ *
+ *   * Auth: Everlyne Angwenyi
+ *
+ *    */
+
+
+
+#include <stdio.h>
+
+/**
+ *
+ *  * main - Entry point
+ *
+ *   *
+ *
+ *    * Return: Always 0 (Success)
+ *
+ *     */
+
 int main(void)
+
 {
-	int i;
 
-	for (i = 0; i < 10; i++)
-		printf("%d", i);
-		printf("\n");
+		int x = 0;
 
-	return (0);
+
+
+			do {
+
+						printf("%d", x);
+
+								x++;
+
+									} while (x < 10);
+
+
+
+				printf("\n");
+
+				return (0);
+
 }
+
+
