@@ -1,6 +1,9 @@
+/*
+ * File: 3-print_alphabets.c
+ * 
+ */
+
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
  * main - Entry point
  *
@@ -8,13 +11,17 @@
  */
 int main(void)
 {
-	char low;
+	int x, y;
 
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
-	for (low = 'A'; low <= 'Z'; low++)
-		putchar(low);
-		putchar('\n');
+	for (x = 'a'; x <= 'z'; x++)
+	{
+		putchar(x);
+	}
+	for (y = 'A'; y <= 'Z'; y++)
+	{
+		putchar(y);
+	}
+	putchar('\n');
 
 	return (0);
 }
