@@ -1,17 +1,10 @@
 /*
- *
- *  * File: 7-print_tebahpla.c
- *
- *   * Auth:Everlyne Angwenyi
- *
+ * File: 7-print_tebahpla.c
+ * Auth:Everlyne Angwenyi
  */
 #include <stdio.h>
-
 /**
- *
  * main - Prints the lowercase alphabet in reverse followed by a new line
- *
- *
  * Return: Always 0 (Success)
  */
 
