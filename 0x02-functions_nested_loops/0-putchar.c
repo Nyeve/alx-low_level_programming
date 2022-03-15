@@ -4,7 +4,7 @@
  */
 #include "main.h"
  /**
-  * main - prints _putchar, followed by a new line.
+  * main - check the code
   *
   * Return: Always 0
   */
