@@ -1,6 +1,6 @@
 /*
- * File 11
- * AUth:Everlyne Angwenyi 
+ * File 11-print_98.c
+ * Auth:Everlyne Angwenyi 
  */
 #include <stdio.h>
  /**
@@ -10,7 +10,7 @@
   *
   * @a: The number to begin counting at
   */
- void print_to_98(int a)
+void print_to_98(int a)
 {
 	if (a >= 98)
 	{
