@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #ifndef "MAIN.H"
 #define "MAIN.H"
 /*
@@ -19,3 +20,13 @@ void puts_half(char *str);
 void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
 #endif
+=======
+#ifndef "MAIN>H"                                                                                      
+#define "MAIN.H"                                                                                      
+                                                                                                
+void reset_to_98(int *n);                                                                             
+
+                                                                                                      
+
+#endif  
+>>>>>>> 4943cc04fe82750564253824aa900e13a924da8d
