@@ -1,16 +1,19 @@
-#include
+#include "main.h"
 /**
- *prin_rev -takes
+ * print_rev -takes
  *
  * @s: string to be taken
  * Return: str reversed
  */
 void print_rev(char *s)
 {
-	int iter = sizeof(s) - 1;
+	int a = 0;
 
-	for (iter = _strlen(s)iter >=0; iter--)
-		_putchar(*(s + iter));
-	_putchar(10);
+	while (s[a])
+		a++;
+	while (a--)
+	{
+		_putchar(s[a]);
+		_putchar('\n');
+	}
 }
-
