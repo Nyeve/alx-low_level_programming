@@ -1,16 +1,16 @@
 #include "main.h"
 /**
- *_strlen - takes string niput as a parmeter
+ * _strlen - returns the length of a string
  *
- *@s: string to be calculated
+ * @s: pointer
+ *
+ * Return: The length
  */
 int _strlen(char *s)
 {
-	int iter = 0;
+	int x = 0;
 
-	while (s[iter]) != '\0'
-	{
-		iter++;
-	}
-	return (iter);
+	while (s[x])
+		x++;
+	return (x);
 }

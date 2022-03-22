@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-#ifndef "MAIN.H"
-#define "MAIN.H"
+#ifndef MAIN_H
+#define MAIN_H
 /*
  * File: main.h
  *
@@ -19,14 +18,6 @@ void puts2(char *str);
 void puts_half(char *str);
 void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
+int _atoi(char *s);
+
 #endif
-=======
-#ifndef "MAIN>H"                                                                                      
-#define "MAIN.H"                                                                                      
-                                                                                                
-void reset_to_98(int *n);                                                                             
-
-                                                                                                      
-
-#endif  
->>>>>>> 4943cc04fe82750564253824aa900e13a924da8d
