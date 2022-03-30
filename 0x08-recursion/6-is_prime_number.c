@@ -20,7 +20,6 @@ int is_divisible(int num, int div)
 
 	return (is_divisible(num, div + 1));
 }
-
 /**
  * is_prime_number - Checks if a number is prime.
  * @n: The number to be checked.
