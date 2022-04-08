@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stddef.h>
 #include <stdlib.h>
 /**
  * string_noncat- concatenate two strings using an inputted number of bytes
